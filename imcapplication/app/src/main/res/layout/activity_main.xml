@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/activity_background"
+    >
+
+
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/fitness"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="IMC"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Informe seu peso:"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@android:color/white"
+        android:background="@drawable/activity_background"
+
+        />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Informe sua altura:"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="@drawable/activity_background"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CALCULAR"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="150dp"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:background="@drawable/resultado"
+        android:hint="22.8"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Peso Ideal"
+        android:paddingLeft="120dp"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
